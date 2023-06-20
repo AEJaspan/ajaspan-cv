@@ -23,5 +23,6 @@ Site will be hosted locally, and all site data will be in the ```_site``` folder
 
 Push the contents of this folder to the ```online-cv``` repository.
 
+Local host at: http://0.0.0.0:4000/ajaspan-cv/
 
 CV will then be found at [https://aejaspan.github.io/online-cv/index.html](https://aejaspan.github.io/online-cv/index.html)
