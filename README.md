@@ -46,4 +46,6 @@ https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
 wkhtmltopdf --no-print-media-type --no-pdf-compression --enable-plugins --title AEJaspanCV --viewport-size 800 -B 0 -L 0 -R 0 -T 5 http://0.0.0.0:4000/ajaspan-cv/ AEJaspan-CV.pdf
 
 wkhtmltopdf --no-print-media-type --no-pdf-compression --enable-plugins --title AEJaspanCV --viewport-size 800 -B 0 -L 0 -R 0 -T 5 https://aejaspan.github.io/ajaspan-cv/index.html AEJaspan-CV.pdf
+
+-- ususally has to be ran twice
 ```
