@@ -12,15 +12,6 @@ Simple CV hosted on github-pages
 
 
 ```
-gem install digest
-(required xcode-select --install)
-gem install jekyll-pdf
-gem install jekyll-pdf --source http://rubygems.org
-gem install digest --source http://rubygems.org
-bundle add jekyll-pdf
-```
-
-```
 bundle init
 bundle add github-pages
 bundle update
@@ -45,7 +36,7 @@ https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
 ```
 wkhtmltopdf --no-print-media-type --enable-plugins --title AEJaspanCV --viewport-size 800 -B 5 -L 0 -R 0 -T 5 --footer-right "[page]/[topage]" --footer-font-name Roboto --footer-font-size 9 http://0.0.0.0:4000/ajaspan-cv/ AEJaspan-CV.pdf
 
-wkhtmltopdf --no-print-media-type --enable-plugins --title AEJaspanCV --viewport-size 800 -B 5 -L 0 -R 0 -T 5 --footer-right "[page]/[topage]" --footer-font-name Roboto --footer-font-size 9 https://aejaspan.github.io/ajaspan-cv/index.html AEJaspan-CV.pdf
+wkhtmltopdf --no-print-media-type --enable-plugins --title AEJaspanCV --viewport-size 800 -B 5 -L 0 -R 0 -T 5 --footer-right "[page]/[topage]" --footer-font-name Roboto --footer-font-size 9  https://aejaspan.github.io/ajaspan-cv/index.html AEJaspan-CV.pdf
 
 -- ususally has to be ran twice
 ```
