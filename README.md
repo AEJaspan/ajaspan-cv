@@ -40,3 +40,5 @@ wkhtmltopdf --no-print-media-type --enable-plugins --title AEJaspanCV --viewport
 
 -- ususally has to be ran twice
 ```
+
+<!-- #https://stackoverflow.com/questions/34479040/how-to-install-wkhtmltopdf-with-patched-qt -->
